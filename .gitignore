@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (IMPORTANT - Don't upload API keys!)
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Package managers
+uv.lock
+*.lock
+poetry.lock
+Pipfile.lock
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files (too large for GitHub)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+# Data files (if large)
+# Uncomment if you have large datasets
+# *.csv
+# *.json
+# *.parquet
+
+# PDF files (if large - keep small ones for demos)
+# Uncomment if needed
+# *.pdf
+
+# Qdrant local storage
+.qdrant/
+qdrant_storage/
